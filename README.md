@@ -81,7 +81,7 @@ Cum_Vega_Sprd_PnL is -4.54 and it unwinds becasue of stop loss rather than trigg
 
 However, on 2023-04-024 50ETF: <br>
 Cum_Vega_Sprd_PnL is 4.66. It unwinds in 30s after the triggered the trading signal. This works because market corrects itself quickly just in 30s.
-![My Plot](excel/Plot.png)
+![My Plot](Vol_Surface_Mean_Reversion/excel/Plot.png)
 
 ## Testing Results
 For 50 ETF the second expiry(next month): <br>
