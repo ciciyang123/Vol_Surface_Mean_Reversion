@@ -2,13 +2,13 @@
 Assuming the volatility surface fitted by SVI model reflects theoretical implied volatility, then we can compare the market iv with the theoretical iv. Build a portfolio long the option whose iv is lower than the vol surface and short the option whose iv is higher than the vol surface.
 
 ## Table of Contents
-- [Data Preparation](#Data Preparation)
-- [Data Cleaning](#Data Cleaning)
-- [SVI model and calibration](#SVI model and calibration)
-- [Strategy Implementation](#Strategy Implementation)
-- [Post Strategy Analysis](#Post Strategy Analysis)
-- [Testing Results](#Testing Results)
-- [Where to go from here](#Where to go from here)
+- Data Preparation
+- Data Cleaning
+- SVI model and calibration
+- Strategy Implementation
+- Post Strategy Analysis
+- Testing Results
+- Where to go from here
 ## Data Preparation
 All the data preparation is in the TickQuotation module. <br>
 **timeseries** generates time series from 10:00:00 to 15:00:00 with 0.5s frequency. <br>
